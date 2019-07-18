@@ -1,6 +1,6 @@
 {
   "name": "sanity-podcast-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the RSS feed for your podcasts in Sanity",
   "main": "index.js",
   "scripts": {
