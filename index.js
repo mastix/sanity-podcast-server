@@ -30,7 +30,7 @@ const provision = async () => {
     ]);
     await server
       .start()
-      .then(() => console.log('Server running:', server.info));
+      .then(() => console.log(`Server v${process.env.npm_package_version} running:`, server.info));
   } catch (err) {
     console.log(err);
   }
